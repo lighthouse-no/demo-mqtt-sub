@@ -1,6 +1,6 @@
 # MQTT Subscriber Example App
 
-A simple Rust-based app that publishes messages to the public MQTT server at `tcp://broker.emqx.io:1883`
+A simple Rust-based app that subscribes to messages on the public MQTT server at `tcp://broker.emqx.io:1883`
 
 This app works with in conjunction with a corresponding publisher app.
 
@@ -10,8 +10,9 @@ This app works with in conjunction with a corresponding publisher app.
 
 1. Push this app to Cloud Found<br>`cf push`
 1. Watch the CF logs `cf logs mqtt-demo-sub`
+1. Start the corresponding pubslisher app from your local machine
 
-When the corresponding publisher app runs, you will see log messages similar to the following
+In the `mqtt-demo-sub` logs, you will see messages similar to the following:
 
 ```log
 2023-07-26T15:27:39.36+0100 [APP/PROC/WEB/0] OUT rust/mqtt: Hello world! 0
