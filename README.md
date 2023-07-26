@@ -23,3 +23,6 @@ In the `mqtt-demo-sub` logs, you will see messages similar to the following:
 ```
 
 To terminate the subscriber, deleted the deployed app in Cloud Foundry
+
+-----
+&copy; 2023 Lighthouse Consulting AS
