@@ -8,7 +8,7 @@ This app works with in conjunction with a corresponding publisher app.
 
 ## Usage
 
-1. Push this app to Cloud Found<br>`cf push`
+1. Push this app to Cloud Found `cf push`
 1. Watch the CF logs `cf logs mqtt-demo-sub`
 1. Start the corresponding pubslisher app from your local machine
 
