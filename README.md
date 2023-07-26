@@ -8,7 +8,7 @@ This app works with in conjunction with a corresponding [publisher app](https://
 
 ## Usage
 
-1. Push this app to Cloudry Foundry `cf push`
+1. Push this app to Cloud Foundry `cf push`
 1. Watch the CF logs `cf logs mqtt-demo-sub`
 1. Start the corresponding publisher app from your local machine
 
